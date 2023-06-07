@@ -1,0 +1,238 @@
+body{
+    font-family: 'Press Start 2P';
+    background-image: url("https://e0.pxfuel.com/wallpapers/891/197/desktop-wallpaper-minecraft-backround-minecraft-scenery.jpg");
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 0;
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    background-color: white;
+    width: 25rem;
+    border-radius: 20px;
+    padding: 3rem;
+}
+
+h2{
+    position: absolute;
+    top: 80%;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 13rem;
+    height: 2rem;
+    font-size: .7rem;
+    border-radius: 20px;
+    padding: .5rem;  
+}
+
+.contenedor{
+    position: absolute;
+    top: 27%;
+    background-color: rgba(225, 225, 225, .7);
+    width: 85%;
+    height: 67%;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: scroll;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    
+}
+
+.elemento{
+    background-color: white;
+    width: 20%;
+    height: 70%;
+    margin: 1rem;
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.a1{
+    width: 80%;
+    height: 80%;
+    background-image: url("https://lh3.googleusercontent.com/ctpdThy9IJbV720UzcluW4xsZeCOZz5wMiYwuzUXI1YOyif3-xYSCxKO5vPcr0BRswtUuiG-9dnJ-LPxaTTYUxBvjggJuhsGzps=s400");
+    /* background-color: aquamarine; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation-name: deszombificacion;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+
+@keyframes deszombificacion {
+    0%{
+        background-color: aqua;
+        /* background-image: url("https://static.wikia.nocookie.net/minecraft_gamepedia/images/f/fd/Plains_Zombie_Villager_Base.png/revision/latest?cb=20211013222051"); */
+    }
+    25%{
+        background-color: aquamarine;
+    }
+    50%{
+        background-color: cadetblue;
+    }
+    75%{
+        background-color: blue;
+    }
+    100%{
+        background-color: black;
+        /* background-image: url("https://static.wikia.nocookie.net/minecraft_es_gamepedia/images/d/d8/Plains_Villager_Base.png/revision/latest?cb=20190517130809"); */
+    }
+}
+
+.a2{
+    width: 80%;
+    height: 80%;
+    background-image: url("https://www.harasdadinco.cl/wp-content/uploads/2023/02/cual-es-la-oveja-mas-dificil-de-encontrar-en-minecraft.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation-name: oveja;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+
+@keyframes oveja {
+    0%{
+        background-image: url("https://i.pinimg.com/originals/51/a6/4b/51a64b29c1e54b96d10452ef6cafa63e.png");
+    }
+    100%{
+        background-image: url("https://www.harasdadinco.cl/wp-content/uploads/2023/02/cual-es-la-oveja-mas-dificil-de-encontrar-en-minecraft.png");
+    }
+}
+
+.a3{
+    width: 80%;
+    height: 80%;
+    background-image: url("https://cdn.shopify.com/s/files/1/0494/7951/6320/products/RF_16216_IMAGE_04_1200x1200.jpg?v=1601313264");
+    /* background-color: black; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation-name: tnt;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: normal; 
+}
+
+@keyframes tnt {
+    0%{
+        background-image: url("https://cdn.shopify.com/s/files/1/0494/7951/6320/products/RF_16216_IMAGE_04_1200x1200.jpg?v=1601313264");
+        transform: rotate(25deg);
+    }
+    100%{
+        background-image: url("https://cdn.shopify.com/s/files/1/0494/7951/6320/products/RF_16216_IMAGE_04_1200x1200.jpg?v=1601313264");
+        opacity: .7;
+        transform: scale(1.2);
+    }
+}
+
+.a4{
+    width: 80%;
+    height: 80%;
+    background-image: url("https://p.turbosquid.com/ts-thumb/l2/sE244S/jbgEGTaS/minecrafttree3dmodel02/jpg/1458022867/600x600/fit_q87/9488dd93c7e64ef984b842fdbe21c601aa051956/minecrafttree3dmodel02.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.a4:hover{
+    cursor: url(esqueleto.png), auto;
+    animation-name: arbol;
+    animation-duration: 1s;
+    /* animation-iteration-count: infinite; */
+    animation-direction: normal; 
+}
+
+@keyframes arbol {
+    0%{
+        background-image: url("https://lh3.googleusercontent.com/iu4D4T7XjI3-_adavi12WG-xr3vE7gt4dXUURsX-7DsKFtR57Njrju7SItNgaObLgvpXICyJu_86TpUuE1kvTA");
+    }
+    100%{
+        background-image: url("https://lh3.googleusercontent.com/iu4D4T7XjI3-_adavi12WG-xr3vE7gt4dXUURsX-7DsKFtR57Njrju7SItNgaObLgvpXICyJu_86TpUuE1kvTA");
+    }
+}
+
+.a5{
+    width: 80%;
+    height: 80%;
+    background-image: url("https://pm1.aminoapps.com/6385/89a52ad2de0e764b0867370316e170c863ca211b_00.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation-name: esqueleto;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-direction: normal; 
+}
+
+@keyframes esqueleto {
+    0%{
+        background-image: url("https://pm1.aminoapps.com/6385/89a52ad2de0e764b0867370316e170c863ca211b_00.jpg");
+    }
+    50%{
+        background-image: url(../media/esqueleto.png);
+    }
+    100%{
+        background-image: url(../media/esqueleto.png);
+    }
+}
+
+.a51{
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    width: 10%;
+    height: 10%;
+    background-image: url("https://wikiminecraft.es/images/2/2a/Flecha.png");
+    animation-name: flecha;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    opacity: 0; 
+}
+
+@keyframes flecha {
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;;
+    }
+    100%{
+        transform: translateX(7rem);
+    }
+}
+
+.a6{
+    width: 80%;
+    height: 80%;
+    background-image: url("https://upload.wikimedia.org/wikipedia/pt/b/b3/SteveMinecraft.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation-name: steve;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-direction: normal; 
+}
+
+@keyframes steve {
+    57%{
+        background-image: url("https://upload.wikimedia.org/wikipedia/pt/b/b3/SteveMinecraft.png");
+    }
+    100%{
+        background-image: url("https://lh3.googleusercontent.com/pnQdSBj2OUwfEZsJswX65h1zITaATmo98gPSvUdS0X5r13J_8OIeTHbNAPAKWsZlkJI5k-DIm0Lwqhy40v8EhGf1p5xuW7TRcDk=s400");
+    }
+}
+
